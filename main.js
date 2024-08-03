@@ -15,15 +15,6 @@ navLinks.addEventListener("click", (e) => {
   menuBtnIcon.setAttribute("class", "ri-menu-line");
 });
 
-const downloadCv = document.getElementById("download-cv");
-
-downloadCv.addEventListener("click", (e) => {
-  const aElement = document.createElement("a");
-  aElement.setAttribute("download", "CV.pdf");
-  aElement.setAttribute("href", "/assets/CV.pdf");
-  aElement.click();
-});
-
 const scrollRevealOption = {
   distance: "50px",
   origin: "bottom",
